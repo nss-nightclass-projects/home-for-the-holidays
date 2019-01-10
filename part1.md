@@ -23,7 +23,7 @@
 | /holidays/new |  NewHoliday | `<h3>New Holiday Page</h3>`  |
 | /holidays/:id |  HolidayDetail | button that goes to /holidays/12345/edit and button that goes to /holidays/12345/friends  |
 | /holidays/:id/edit |  EditHoliday | `<h3>Edit Holiday Page</h3>`  |
-| /holidays/:id/friends |  EditHoliday | `<h3>Add Friends to Holiday Page</h3>`  |
+| /holidays/:id/friends |  HolidayFriends | `<h3>Add Friends to Holiday Page</h3>`  |
 
 ### Tips
 Many of the routes above have :id in them.  This is setting a wildcard.  It means when the user clicks on something that takes them to the route the button will provide the id we want to navigate to.  In 95% of our cases :id will become the firebase id.  So the holidays detail page will really look something like: `/holidays/-LVCMi7lTXoKz6Ddzxal`.
